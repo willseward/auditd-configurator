@@ -1,10 +1,10 @@
 Master: false
-RemoteAddress: 10.0.0.0
+RemoteAddress: 192.168.68.101
 TcpPort: 80
 Rules:
-    - FilePath: /etc/sysconfig/docker
-      Checks: rwxa
     - FilePath: /etc/passwd
       Checks: -p rwxa 
+      Key: password
     - FilePath: /etc/shadow
       Checks: -p rwxa 
+      Key: password
