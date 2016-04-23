@@ -1,1 +1,1 @@
-FROM willseward/go-configurator
+FROM willseward/go-configurator:0.2
