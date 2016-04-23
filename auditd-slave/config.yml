@@ -1,4 +1,4 @@
-Master: true
+Master: false
 RemoteAddress: 10.0.0.0
 TcpPort: 80
 Rules:

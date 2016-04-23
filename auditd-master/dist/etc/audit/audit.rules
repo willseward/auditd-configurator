@@ -1,0 +1,7 @@
+-w /etc/sysconfig/docker rwxa -k docker
+-w /etc/passwd -p rwxa -k password
+-w /etc/shadow -p rwxa -k password
+
+
+-a entry,always -S chmod -k permissions
+-a entry,always -S chown -k permissions

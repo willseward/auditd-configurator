@@ -7,7 +7,7 @@ An applied example of the [go-configurator](https://github.com/willseward/go-con
 ```
 $ cd auditd
 $ docker build -t auditd-configurator .
-$ docker run -v `pwd`/auditd/dist:/tmp/dist auditd-configurator update --temp=/tmp/dist --test
+$ docker run -v `pwd`/dist:/tmp/dist auditd-configurator update --temp=/tmp/dist --test
 ```
 
 ## Running without Dockerfile
