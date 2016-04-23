@@ -1,0 +1,7 @@
+-w /etc/sysconfig/docker rwxa
+-w /etc/passwd -p rwxa
+-w /etc/shadow -p rwxa
+
+
+-a entry,always -S chmod
+-a entry,always -S chown

@@ -1,0 +1,5 @@
+{{ range .Rules }}-w {{ .FilePath }} {{ .Checks }}
+{{ end }}
+
+-a entry,always -S chmod
+-a entry,always -S chown
