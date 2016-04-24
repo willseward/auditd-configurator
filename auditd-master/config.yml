@@ -1,6 +1,6 @@
 Master: true
 RemoteAddress: 192.168.68.101
-TcpPort: 80
+TcpPort: 1234
 Rules:
     - FilePath: /etc/passwd
       Checks: -p rwxa 
