@@ -1,5 +1,5 @@
 #!/bin/bash
 
 # reload the auditd rules
-service auditd reload
+service auditd restart
 auditctl -R /etc/audit/audit.rules
