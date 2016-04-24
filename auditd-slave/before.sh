@@ -1,4 +1,4 @@
 #!/bin/bash
 
 apt-get update
-apt-get install -y audispd-plugins
+apt-get -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" install -y audispd-plugins
